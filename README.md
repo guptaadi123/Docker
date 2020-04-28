@@ -18,7 +18,7 @@
 * After that to verify the installation of docker use 
 docker-compose version
 * If you see version then you are good to go
-## then follow below steps##
+## then follow below steps ##
 
 * mkdir /mycompose
 * cd /mycompose
