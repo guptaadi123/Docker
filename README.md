@@ -34,7 +34,6 @@ docker-compose -v
 * after that 
 * use docker-compose up
 * now go to your local host 
-* localhost:port number
 * to see if its working or not 
 * you can use this cmnd to run file detach mode
 * docker-compose up -d
