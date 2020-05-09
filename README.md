@@ -2,6 +2,7 @@
  I have learnt the docker under the guidence of **MR.Vimal Daga sir** in campaign **IIEC-RISE 1.0** which is his intiative on youtube.
  If you all want you can go to this link https://www.youtube.com/channel/UCtY-JhEZ3iPLtozWGgd2efQ for more getting more Knowledge regarding the project. 
 * This project of docker is to set-up enviroment of wordpress on docker  .
+* Here we have used docker conatainer technique as we all are aware from it if load increase on website it might require to launch multiple os and launching new os in VB or seeting other is time consumming but in docker it only take 5 sec to launch os so if client side increase we can launch simaltaniously new os quickly.
 * You  know that  wordpress run on data base so it is necessary to create database and to creat the database in docker we have to launch one different container with different image and different conatiner for wordpress so if you want to set in one computer its okay but suppose you want to set up in different 100 computer of your comapny so its a big problem so to overcome this we use docker compose basically it run multiple conatiner in one comand.Docker Compose is used to run multiple containers as a single service.
 * Here we have use volumes so if suppose container is crashed by chance so we have mounted to local volume to docker continer so that if container is crashed our data will be safe and we can  launch container again.
 * VOLUME NAME:-
@@ -46,6 +47,6 @@ docker-compose -v
 * To delete all the volumes created by docker compose up you can use
 * docker-compose down --volumes
 * to visit site goto ip:portnumber
-* example- http://192.168.1.32:8086/
-* If you want to run this on windows remember to diable firewaal
+* example- 192.168.1.32:8086
+* If you want to run this on windows remember to disable firewall
 * Simply use systemctl stop firewalld
